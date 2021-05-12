@@ -26,7 +26,6 @@ canvas.addEventListener("resize", () => {
 canvas.addEventListener("mouseup", function () {
   mouse.x = -1;
   mouse.y = -1;
-  console.log(mouse);
 });
 
 function Ant(x, y, radius) {
@@ -109,7 +108,6 @@ function kill(ant) {
   if (index > -1) {
     antArray.splice(index, 1);
   }
-  console.log(antArray);
 }
 
 function animate() {
